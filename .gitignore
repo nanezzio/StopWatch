@@ -1,0 +1,30 @@
+# Qt Creator
+.qtcreator/
+*.pro.user
+*.pro.user.*
+
+# Сборка (qmake / CMake)
+build/
+build-*/
+debug/
+release/
+*-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+Makefile.*
+
+# Объектные файлы и бинарники
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.pdb
+
+# ОС
+Thumbs.db
+.DS_Store
